@@ -1,0 +1,17 @@
+i = 0
+
+loop do
+  num = Random.rand(2)
+  if num == 0
+    print "PASS"
+    i+=1
+  elsif num == 1
+    print "FAIL"
+    i+=1
+  end
+  if i < 3
+    break
+  end
+end
+
+  

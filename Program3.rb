@@ -1,0 +1,1 @@
+santa = Hash.new("name")
